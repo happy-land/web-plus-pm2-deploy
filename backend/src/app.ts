@@ -18,6 +18,8 @@ app.use(cors({
   origin: [
     'http://rus-frontend.nomoreparties.sbs',
     'https://rus-frontend.nomoreparties.sbs',
+    'http://rus-backend.nomoreparties.sbs',
+    'https://rus-backend.nomoreparties.sbs',
   ],
 }));
 app.use(express.json());
