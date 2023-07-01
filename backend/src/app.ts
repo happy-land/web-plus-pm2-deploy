@@ -16,8 +16,8 @@ mongoose.connect(DB_ADDRESS);
 // Только для локальных тестов. Не используйте это в продакшене
 app.use(cors({
   origin: [
-    'http://rus-backend.nomoreparties.sbs/signin',
-    'https://rus-backend.nomoreparties.sbs/signin',
+    'http://rus-backend.nomoreparties.sbs',
+    'https://rus-backend.nomoreparties.sbs',
   ],
 }));
 app.use(express.json());
