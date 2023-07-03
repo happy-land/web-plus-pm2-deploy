@@ -15,14 +15,6 @@ mongoose.connect(DB_ADDRESS);
 
 // Только для локальных тестов. Не используйте это в продакшене
 app.use(cors());
-// app.use(cors({
-//   origin: [
-//     'http://rus-frontend.nomoreparties.sbs',
-//     'https://rus-frontend.nomoreparties.sbs',
-//     'http://rus-backend.nomoreparties.sbs',
-//     'https://rus-backend.nomoreparties.sbs',
-//   ],
-// }));
 
 app.use((req: Request, res: Response, next) => {
   // res.setHeader('Access-Control-Allow-Origin', '*');
