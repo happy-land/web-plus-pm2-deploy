@@ -18,7 +18,7 @@ app.use(cors());
 
 app.use((req: Request, res: Response, next) => {
   // res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Origin', 'http://rus-frontend.nomoreparties.sbs');
+  res.setHeader('Access-Control-Allow-Origin', 'https://rus-frontend.nomoreparties.sbs');
   res.setHeader(
     'Access-Control-Allow-Headers',
     'Origin, X-Requested-With, Content-Type, Accept, Authorization',
