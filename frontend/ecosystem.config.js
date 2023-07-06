@@ -4,7 +4,7 @@ const {
   DEPLOY_USER,
   DEPLOY_HOST,
   DEPLOY_PATH,
-  DEPLOY_REF = 'origin/dev',
+  DEPLOY_REF = 'origin/master',
   TEMP_PATH = '~/temp',
   DEPLOY_REPO,
 } = process.env;
