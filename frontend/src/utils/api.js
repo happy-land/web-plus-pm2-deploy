@@ -140,6 +140,6 @@ class Api {
   }
   // Замените на адрес вашего бэкенда
   // const api = new Api('http://localhost:3000');
-  const api = new Api('http://rus-backend.nomoreparties.sbs');
+  const api = new Api('https://rus-backend.nomoreparties.sbs');
 
   export default api;
