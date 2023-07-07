@@ -17,7 +17,7 @@ module.exports = {
       ref: DEPLOY_REF,
       repo: DEPLOY_REPO,
       path: TEMP_PATH,
-      'post-deploy': `mkdir ${DEPLOY_PATH} && cd ./frontend && npm i && npm run build && cp -Rf ./build/* ${DEPLOY_PATH} && rm -rf ${TEMP_PATH}`,
+      'post-deploy': `npm run build && scp -r ./build/* praktikum@51.250.94.150:/home/praktikum/mesto-frontend`,
     }
   }
 }
